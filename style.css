@@ -1,0 +1,40 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  padding: 0 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  margin-right: 250px;
+}
+
+.footer form a {
+  color: white;
+}
+
+.footer h3 a {
+  color: white;
+}
+
+.button :hover {
+  background-color: blue;
+  display: inline;
+  margin-right: 150px;
+  padding: 0 20px;
+  transition: all 0.25s ease;
+  color: white;
+}
+
+.button {
+  padding: 0 20px;
+  font-size: 18px;
+  align-items: center;
+}
