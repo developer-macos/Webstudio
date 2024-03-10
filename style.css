@@ -27,9 +27,8 @@
 .button :hover {
   background-color: blue;
   display: inline;
-  margin-right: 150px;
-  padding: 0 20px;
-  transition: all 0.25s ease;
+  padding: 0 10px;
+  transition: all 0.15s ease;
   color: white;
 }
 
@@ -51,4 +50,10 @@ h3 {
 #top {
   margin-left: 750px;
   color: gold;
+}
+
+body ul a {
+  display: flexbox;
+  color: black;
+  text-decoration: none;
 }
