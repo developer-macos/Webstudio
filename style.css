@@ -23,9 +23,9 @@
 }
 
 .footer {
-  background-color: black;
+  background-color: #2f303a;
   color: white;
-  margin-right: 250px;
+  margin-right: 0px;
 }
 
 .footer form a {

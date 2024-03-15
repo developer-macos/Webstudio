@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.woman {
+.DOCTYPE {
   font-size: 26px;
   color: var(--just-color);
 }
@@ -102,6 +102,7 @@ h3 + p {
 }
 
 .diap {
+  flex-wrap: wrap;
   display: flex;
   margin-left: 300px;
   margin-right: 300px;
