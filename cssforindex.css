@@ -85,6 +85,7 @@ h3 + p {
   color: var(--color-for-nothing);
   cursor: pointer;
   font-size: 16px;
+  border: none;
 }
 
 .portfolio {
