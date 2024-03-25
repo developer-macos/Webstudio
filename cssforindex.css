@@ -9,17 +9,16 @@
   align-items: center;
 }
 
-.DOCTYPE {
-  font-size: 26px;
-  color: var(--just-color);
-}
-
 .nav-list li a {
   padding: 0 10px;
   color: black;
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
+}
+.DOCTYPE {
+  font-size: 26px;
+  color: var(--just-color);
 }
 
 .active {
@@ -36,6 +35,7 @@
 
 .web {
   color: #2196f3;
+  font-family: "Roboto", monospace;
 }
 
 h3 + p {
@@ -51,26 +51,14 @@ h3 + p {
   font-size: 30px;
 }
 
-.success {
-  color: green;
-}
-
-.warning {
-  color: rgb(185, 185, 41);
-}
-
-.error {
-  color: red;
-}
 
 .not {
+font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #ffffff;
   font-size: 44px;
-font-family: Roboto, sans-serif;
-font: bold
-font-weight: 400;
-font-style: normal;
-  margin-left: 500px;
-  color: var(--color-for-nothing);
+  word-spacing: 10px;
 }
 
 .div {
@@ -78,7 +66,7 @@ font-style: normal;
 }
 
 .button {
-  margin-left: 800px;
+  margin-left: 900px;
   width: 150px;
   margin-bottom: 250px;
   height: 50px;
@@ -105,9 +93,10 @@ font-style: normal;
 }
 
 .diap {
-  flex-wrap: wrap;
-  display: flex;
+
+  display: flexbox;
   margin-left: 300px;
   margin-right: 300px;
   font-size: 14px;
+
 }
