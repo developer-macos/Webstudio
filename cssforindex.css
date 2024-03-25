@@ -15,6 +15,7 @@
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 .DOCTYPE {
   font-size: 26px;
@@ -31,11 +32,12 @@
 .webstudio {
   color: #000000;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .web {
   color: #2196f3;
-  font-family: "Roboto", monospace;
+  font-family: "Raleway", sans-serif;
 }
 
 h3 + p {
@@ -51,9 +53,8 @@ h3 + p {
   font-size: 30px;
 }
 
-
 .not {
-font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
   color: #ffffff;
@@ -93,10 +94,8 @@ font-family: "Roboto", sans-serif;
 }
 
 .diap {
-
   display: flexbox;
   margin-left: 300px;
   margin-right: 300px;
   font-size: 14px;
-
 }

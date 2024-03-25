@@ -3,11 +3,16 @@
   align-items: center;
 }
 
+.nav-list li :nth-of-type(1) {
+  font-family: "Raleway", sans-serif;
+}
+
 .nav-list li {
   padding: 0 10px;
   color: white;
   font-weight: bold;
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 .and {
@@ -20,6 +25,7 @@
 
 .web-1 {
   color: #2196f3;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer {
@@ -119,15 +125,8 @@ b + p {
 }
 
 .card {
-  left: 215px;
-
-  right: -215px;
-
-  top: 1130px;
-
-  bottom: -1020px;
-  height: 294px;
   width: 370px;
-  background-color:#2f303a ;
-  
+  height: 404px;
+  left: 215px;
+  top: 1130px;
 }
