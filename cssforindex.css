@@ -4,7 +4,7 @@
   --just-color: #212121;
 }
 
-body{
+body {
   font-family: "Raleway" "Roboto";
 }
 
@@ -109,10 +109,14 @@ h3 + p {
 }
 
 .wii a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
-.form a{
-text-decoration: none;
+.form a {
+  text-decoration: none;
+}
+
+.footer-webstudio {
+  background-color: #212121;
 }
