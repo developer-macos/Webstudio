@@ -4,6 +4,10 @@
   --just-color: #212121;
 }
 
+body{
+  font-family: "Raleway" "Roboto";
+}
+
 .nav-list a {
   text-decoration: none;
   align-items: center;
@@ -40,6 +44,7 @@
   font-family: "Raleway", sans-serif;
   font: bold;
   font-size: 26px;
+  line-height: 31px;
 }
 
 h3 + p {
