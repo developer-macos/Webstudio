@@ -1,3 +1,10 @@
+:root {
+    --accent-color: #2196f3;
+  --color-for-nothing: #ffffff;
+  --just-color: #212121;
+  --about-color: #757575;
+}
+
 body {
     font-family: "Roboto" "Raleway";
 }
@@ -27,24 +34,25 @@ body {
   color: #2196f3;
 }
 
+.about-color{
+  color: var(--about-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about{
+      font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 .web-1 {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
 }
 
-.footer {
-  background-color: #2f303a;
-  color: white;
-  margin-right: 0px;
-}
 
-.footer form a {
-  color: white;
-}
-
-.footer h3 a {
-  color: white;
-}
 
 .button {
   padding: 0 20px;
@@ -135,3 +143,21 @@ b + p {
   top: 1130px;
 }
 
+.stylesheet{
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #2f303a;
+  color: white;
+  margin-right: 0px;
+}
+
+.footer form a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer h3 a {
+  color: white;
+}
