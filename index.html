@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="cssforindex.css">
     <title>WEBSTUDIO | Official Website</title>
 </head>
@@ -18,43 +20,45 @@
         <div class="nav-list">
             <a class="DOCTYPE" href="index.html">
                 <span class="web">Web</span><b>Studio</b></a>
-            <a class="active" style="margin-right: 50px;" href="#">Студія</a>
-            <a href="portfolio.html" class="port" >Портфоліо</a>
-            <a href="#" class="port">Контакти</a>
-            <a class="gmail" href="mailto:info@devstudio.com"
-                style="color: #2196F3; text-decoration: none; font-size: 14px; margin-left: 600px;">info@devstudio.com</a>
-            <a href="tel:+38-096-111-11-11" style="font-size: 14px; margin-left: 10px;">+38 096 111 11 11</a>
+                <ul class="header-list">
+                    <li><a class="active" href="index.html">Студія</a></li>
+                    <li><a href="portfolio.html" class="port">Портфоліо</a></li>
+                    <li><a href="#" class="port">Контакти</a></li>
+                </ul>
+                <ul class="header-list-contacts">
+                    <li><a class="gmail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a href="tel:+38-096-111-11-11">+38 096 111 11 11</a></li>
+                </ul>
+            
+            
         </div>
     </header>
     <main>
         <div class="div">
-            <h3 class="not"
-                style="margin-left: 600px; margin-bottom: 250px; background-color: #2f303a; font-size: 44px;">ЕФЕКТИВНІ
-                РІШЕННЯ ДЛЯ
-                <br><span style="margin-left: 80px;">ВАШОГО БІЗНЕСУ</span>
+            <h3 class="not">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br><span class="bussiness">ВАШОГО БІЗНЕСУ</span>
             </h3>
             <button class="button" style="margin-left: 800px;" type="button">Замовити послугу</button>
         </div>
         <section class="diap">
             <div><b class="diap-b">УВАГА ДО ДЕТАЛЕЙ</b>
-                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                <p class="diap-p">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </div>
             <br>
             <div><b class="diap-b">ПУНКТУАЛЬНІСТЬ</b>
-                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                <p class="diap-p">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 <br>
             </div>
             <div><b class="diap-b">ПЛАНУВАННЯ</b>
-                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                <p class="diap-p">Так само консультація з широким активом значною мірою зумовлює.</p>
             </div>
             <br>
             <div><b class="diap-b">СУЧАСНІ ТЕХНОЛОГІЇ</b>
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <p class="diap-p">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </div>
         </section>
         <br>
         <h2 class="red" style="margin-left: 550px;">Чим ми займаємося</h2>
-        <div class="ul-2" style="display: flex; flex-wrap: wrap; margin-left: 200px;">
+        <div class="ul-2" style="display: flex; flex-wrap: wrap; margin-left: 200px; padding-right: 30px;">
             <img src="./images/img.png" alt="Coding">
             <img src="./images/phoneandcomputer.png" alt="Phone and Computer">
             <img src="./images/colorpanel.png" alt="Color Panel">
