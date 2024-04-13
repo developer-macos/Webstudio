@@ -1,12 +1,12 @@
 :root {
-    --accent-color: #2196f3;
+  --accent-color: #2196f3;
   --color-for-nothing: #ffffff;
   --just-color: #212121;
   --about-color: #757575;
 }
 
 body {
-    font-family: "Roboto" "Raleway";
+  font-family: "Roboto" "Raleway";
 }
 
 .nav-list {
@@ -26,7 +26,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.nav-list:hover{
+.nav-list:hover {
   color: var(--accent-color);
   transition: 0.25s;
 }
@@ -39,27 +39,25 @@ body {
   color: #2196f3;
 }
 
-.about-color{
+.about-color {
   color: var(--about-color);
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.about{
-      font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 6%;
+.about {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 6%;
 }
 
 .web-1 {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
 }
-
-
 
 .button {
   padding: 0 20px;
@@ -108,7 +106,7 @@ body {
   width: 103px;
   height: 38px;
   font-size: 16px;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   border-radius: 4px;
   border: none;
@@ -146,7 +144,7 @@ b + p {
   top: 1130px;
 }
 
-.stylesheet{
+.stylesheet {
   text-decoration: none;
 }
 
@@ -163,4 +161,10 @@ b + p {
 
 .footer h3 a {
   color: white;
+}
+
+.ul-1-1 {
+  flex-wrap: wrap;
+  display: flex;
+  list-style: none;
 }
