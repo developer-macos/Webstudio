@@ -44,16 +44,27 @@ text-align: left;
    font-size: 14px;
 }
 
-.nav-list a {
+.container-header-second  a {
+  text-decoration: none;
+}
+
+.container-header-first{
   text-decoration: none;
   align-items: center;
+  max-width: 926px;
+  margin: 0 auto;
+  outline: solid 3px red;
+}
+
+.container-header-first a{
+  text-decoration: none;
 }
 
 .gmail{
   color: var(--accent-color);
 }
 
-.nav-list li a {
+.container-header-first li a {
   padding: 0 10px;
   font-weight: bold;
   font-size: 14px;
@@ -80,7 +91,7 @@ text-align: left;
   font-family: "Raleway", sans-serif;
 }
 
-.header-list{
+.container-header{
   margin-top: 32px;
   margin-bottom: 32px;
   list-style: none;
@@ -121,7 +132,13 @@ background-color: #2f303a; font-size: 44px;
 
 .div {
   background-color: #2f303a;
-  padding-top: 200px;
+}
+
+.container-main-first{
+  margin: 0 auto;
+  outline: dashed 2px blue;
+  max-width: 926px;
+  margin-top: 200px;
 }
 
 .button {
@@ -163,10 +180,12 @@ background-color: #2f303a; font-size: 44px;
 
 .diap {
   display: flex;
-  margin-left: 300px;
-  margin-right: 300px;
+outline: solid 3px green;
+margin: 0 auto;
+max-width: 926px;
   font-size: 14px;
   flex-wrap: wrap;
+  margin-top: 94px;
 }
 
 .wii a {
