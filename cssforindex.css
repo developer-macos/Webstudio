@@ -200,3 +200,25 @@ max-width: 926px;
 .footer-webstudio {
   background-color: #212121;
 }
+
+.ul-2{
+  padding-right: 30px;
+  max-width: 926px;
+  margin: 0 auto;
+  outline: solid 4px limegreen;
+}
+
+.photos{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px; background-color: #f5f4fa;
+  outline: dotted 4px lime;
+  margin: 0 auto;
+  max-width: 1906px;
+}
+
+.container-footer{
+  outline: double 2px red; 
+margin: 0 auto;
+max-width: 1900px;
+}

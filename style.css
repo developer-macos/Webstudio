@@ -12,6 +12,9 @@ body {
 .nav-list {
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  max-width: 926px;
+  outline: 2px solid red;
 }
 
 .nav-list li :nth-of-type(1) {
