@@ -9,19 +9,36 @@ body {
   font-family: "Roboto" "Raleway";
 }
 
-.nav-list {
+.number{
+  margin-left: 50px;
+}
+
+.contacts-in{
+  margin-left: 50px;
+  color: var(--just-color);
+}
+
+.portfolio-in{
+  margin-left: 50px;
+  color: #2196F3;
+}
+
+.container-header {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  max-width: 926px;
-  outline: 2px solid red;
+  max-width: 1200px;
 }
 
-.nav-list li :nth-of-type(1) {
+.container-header:nth-of-type(1) {
   font-family: "Raleway", sans-serif;
 }
 
-.nav-list li {
+.container-header a{
+  text-decoration: none;
+}
+
+.container-header {
   padding: 0 10px;
   color: white;
   font-weight: bold;
@@ -29,17 +46,24 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.nav-list:hover {
+.hr-in{
+  color: #ECECEC;
+  margin-bottom: 94px;
+}
+
+.container-header:hover {
   color: var(--accent-color);
   transition: 0.25s;
 }
 
 .and {
   font-size: 26px;
+  color: #000;
 }
 
 .active {
-  color: #2196f3;
+  color: var(--just-color);
+  margin-left: 93px;
 }
 
 .about-color {
@@ -60,6 +84,7 @@ body {
 .web-1 {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
 
 .button {
@@ -170,4 +195,16 @@ b + p {
   flex-wrap: wrap;
   display: flex;
   list-style: none;
+  max-width: 1170px;
+  margin: 0 auto;
+  outline: solid 2px greenyellow;
+}
+
+.gmail{
+  color: #2196F3; font-size: 14px;
+  margin-left: 344px;
+}
+
+.webstudio-footer a span{
+text-decoration: none;
 }
