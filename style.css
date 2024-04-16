@@ -208,3 +208,9 @@ b + p {
 .webstudio-footer a span{
 text-decoration: none;
 }
+
+.container-footer{
+  max-width: 1205px;
+  margin: 0 auto;
+  outline: dashed 2px blue;
+}
