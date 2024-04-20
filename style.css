@@ -23,22 +23,23 @@ body {
   color: #2196F3;
 }
 
-.container-header {
-  display: flex;
-  align-items: center;
+.container {
+  /* display: flex;
+  align-items: center; */
   margin: 0 auto;
   max-width: 1200px;
+  outline: solid 2px green;
 }
 
-.container-header:nth-of-type(1) {
+.container:nth-of-type(1) {
   font-family: "Raleway", sans-serif;
 }
 
-.container-header a{
+.container a{
   text-decoration: none;
 }
 
-.container-header {
+.container {
   padding: 0 10px;
   color: white;
   font-weight: bold;
@@ -51,7 +52,7 @@ body {
   margin-bottom: 94px;
 }
 
-.container-header:hover {
+.container:hover {
   color: var(--accent-color);
   transition: 0.25s;
 }
@@ -168,8 +169,6 @@ b + p {
 .card {
   width: 370px;
   height: 404px;
-  left: 215px;
-  top: 1130px;
 }
 
 .stylesheet {
@@ -191,15 +190,6 @@ b + p {
   color: white;
 }
 
-.ul-1-1 {
-  flex-wrap: wrap;
-  display: flex;
-  list-style: none;
-  max-width: 1170px;
-  margin: 0 auto;
-  outline: solid 2px greenyellow;
-}
-
 .gmail{
   color: #2196F3; font-size: 14px;
   margin-left: 344px;
@@ -207,10 +197,4 @@ b + p {
 
 .webstudio-footer a span{
 text-decoration: none;
-}
-
-.container-footer{
-  max-width: 1205px;
-  margin: 0 auto;
-  outline: dashed 2px blue;
 }
