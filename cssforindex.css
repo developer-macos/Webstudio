@@ -44,7 +44,7 @@ text-align: left;
    font-size: 14px;
 }
 
-.container-header-second  a {
+.container a {
   text-decoration: none;
 }
 
@@ -176,6 +176,14 @@ background-color: #2f303a; font-size: 44px;
   font-size: 14px;
   /* flex-wrap: wrap; */
   margin-top: 94px;
+}
+
+.container{
+  max-width: 1200px;
+  outline: green solid 3px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .wii a {
