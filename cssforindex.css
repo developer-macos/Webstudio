@@ -179,7 +179,7 @@ background-color: #2f303a; font-size: 44px;
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1170px;
   outline: green solid 3px;
   margin: 0 auto;
   flex-direction: row;
@@ -197,4 +197,14 @@ background-color: #2f303a; font-size: 44px;
 
 .footer-webstudio {
   background-color: #212121;
+}
+
+.container-in-q{
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+}
+
+.team{
+  margin-bottom: 50px;
 }
