@@ -58,12 +58,12 @@ body {
 }
 
 .active {
-  color: var(--just-color);
+  color: black;
   margin-left: 93px;
 }
 
 .about-color {
-  color: var(--about-color);
+  color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -71,6 +71,7 @@ body {
 
 .about {
   font-family: "Roboto", sans-serif;
+  color: var(--just-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -164,6 +165,8 @@ b + p {
 .card {
   width: 370px;
   height: 404px;
+align-items: center;
+justify-content: center;
 }
 
 .stylesheet {
@@ -316,7 +319,7 @@ body {
   background-color: #2f303a;
 }
 
-.button {
+.button-in-webstudio {
   width: 150px;
   margin-bottom: 250px;
   align-items: center;
@@ -386,6 +389,7 @@ body {
   flex-wrap: wrap;
   padding: right auto;
   max-width: 1170px;
+  background-color: #F5F4FA;
 }
 
 .team-- {
@@ -397,20 +401,24 @@ body {
 .shrink-4 {
     display: flex;
   flex-shrink: 1;
+
 }
 
 .shrink-1 {
   display: flex;
   flex-shrink: 2;
+
 }
 
 .shrink-2 {
     display: flex;
   flex-shrink: 3;
+
 }
 
 .shrink-3 {
     display: flex;
   flex-shrink: 4;
+
 }
 
