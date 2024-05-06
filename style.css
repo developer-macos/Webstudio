@@ -9,18 +9,18 @@ body {
   font-family: "Roboto" "Raleway";
 }
 
-.number{
+.number {
   margin-left: 50px;
 }
 
-.contacts-in{
+.contacts-in {
   margin-left: 50px;
   color: var(--just-color);
 }
 
-.portfolio-in{
+.portfolio-in {
   margin-left: 50px;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.container a{
+.container a {
   text-decoration: none;
 }
 
@@ -47,14 +47,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.hr-in{
-  color: #ECECEC;
+.hr-in {
+  color: #ececec;
   margin-bottom: 94px;
-}
-
-.container:hover {
-  color: var(--accent-color);
-  transition: 0.25s;
 }
 
 .and {
@@ -190,47 +185,49 @@ b + p {
   color: white;
 }
 
-.gmail{
-  color: #2196F3; font-size: 14px;
+.gmail {
+  color: #2196f3;
+  font-size: 14px;
   margin-left: 344px;
 }
 
-.webstudio-footer a span{
-text-decoration: none;
+.webstudio-footer a span {
+  text-decoration: none;
 }
 body {
-  font-family: "Raleway" , "Roboto";
+  font-family: "Raleway", "Roboto";
 }
-.port{
-  margin-right: 50px; color: black;
+.port {
+  margin-right: 50px;
+  color: black;
 }
-.diap-b{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    line-height: 16px;
-letter-spacing: 3%;
-color: rgb(33, 33, 33);
-font-size: 14px;
+.diap-b {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  color: rgb(33, 33, 33);
+  font-size: 14px;
 }
 
-.diap-p{
+.diap-p {
   color: rgb(117, 117, 117);
-font-family: "Roboto", sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 3%;
-text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
 }
 
-.header-list-contacts{
-    margin-top: 32px;
+.header-list-contacts {
+  margin-top: 32px;
   margin-bottom: 32px;
   list-style: none;
 }
 
-.header-list-contacts:nth-child(1){
-   font-size: 14px;
+.header-list-contacts:nth-child(1) {
+  font-size: 14px;
 }
 
 .container a {
@@ -245,11 +242,11 @@ text-align: left;
   outline: solid 3px green;
 } */
 
-.container a{
+.container a {
   text-decoration: none;
 }
 
-.gmail-in-index{
+.gmail-in-index {
   color: var(--accent-color);
 }
 
@@ -280,7 +277,7 @@ text-align: left;
   font-family: "Raleway", sans-serif;
 }
 
-.container{
+.container {
   margin-top: 32px;
   margin-bottom: 32px;
   list-style: none;
@@ -310,7 +307,8 @@ text-align: left;
   font-size: 44px;
   word-spacing: 10px;
   margin-bottom: 30px;
-background-color: #2f303a; font-size: 44px;
+  background-color: #2f303a;
+  font-size: 44px;
   text-align: center;
 }
 
@@ -333,13 +331,12 @@ background-color: #2f303a; font-size: 44px;
   text-align: center;
 }
 
-.team{
+.team {
   margin-bottom: 50px;
   margin-top: 188px;
   text-align: center;
   margin-left: 750px;
 }
-
 
 .portfolio {
   color: var(--just-color);
@@ -362,7 +359,6 @@ background-color: #2f303a; font-size: 44px;
   margin-top: 94px;
 }
 
-
 .wii a {
   color: white;
   text-decoration: none;
@@ -376,16 +372,45 @@ background-color: #2f303a; font-size: 44px;
   background-color: #212121;
 }
 
-.container-in-q{
+.container-in-q {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.team{
+.team {
   margin-bottom: 50px;
 }
-.container-in-b{
-  display: flexbox;
+.container-in-b {
+  display: flex;
   flex-wrap: wrap;
+  padding: right auto;
+  max-width: 1170px;
 }
+
+.team-- {
+  color: var(--just-color);
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+.shrink-4 {
+    display: flex;
+  flex-shrink: 1;
+}
+
+.shrink-1 {
+  display: flex;
+  flex-shrink: 2;
+}
+
+.shrink-2 {
+    display: flex;
+  flex-shrink: 3;
+}
+
+.shrink-3 {
+    display: flex;
+  flex-shrink: 4;
+}
+
