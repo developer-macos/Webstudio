@@ -376,9 +376,12 @@ body {
 }
 
 .container-in-q {
-  display: flex;
+  display: list-item;
+  box-sizing: border-box;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
 }
 
 .team {
