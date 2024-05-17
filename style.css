@@ -384,6 +384,10 @@ body {
     unicode-bidi: isolate;
 }
 
+.container-in-q::before{
+  
+}
+
 .team {
   margin-bottom: 50px;
 }
