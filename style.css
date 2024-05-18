@@ -41,7 +41,7 @@ body {
 
 .container {
   padding: 0 10px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -165,8 +165,8 @@ b + p {
 .card {
   width: 370px;
   height: 404px;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .stylesheet {
@@ -381,11 +381,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   text-align: -webkit-match-parent;
-    unicode-bidi: isolate;
+  unicode-bidi: isolate;
+  list-style: none;
 }
+.container-in-q li{
 
-.container-in-q::before{
-  
 }
 
 .team {
@@ -396,7 +396,7 @@ body {
   flex-wrap: wrap;
   padding: right auto;
   max-width: 1170px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-- {
@@ -406,26 +406,75 @@ body {
   align-self: center;
 }
 .shrink-4 {
-    display: flex;
+  display: flex;
   flex-shrink: 1;
-
 }
 
 .shrink-1 {
   display: flex;
   flex-shrink: 2;
-
 }
 
 .shrink-2 {
-    display: flex;
+  display: flex;
   flex-shrink: 3;
-
 }
 
 .shrink-3 {
-    display: flex;
+  display: flex;
   flex-shrink: 4;
-
 }
 
+.diap-b-f::before {
+  background-image: url(./images/antenna.svg);
+      display: block;
+    content: "";
+    background-color: var(--background-color-btn);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 450px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.li-a{
+      display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.diap-b-s::before {
+  background-image: url(./images/s.svg);
+      display: block;
+    content: "";
+    background-color: var(--background-color-btn);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 450px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.diap-b-t::before {
+  background-image: url(./images/ss.svg);
+      display: block;
+    content: "";
+    background-color: var(--background-color-btn);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 450px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.diap-b-fo::before {
+  background-image: url(./images/wss.svg);
+      display: flex;
+    content: "";
+    background-color: var(--background-color-btn);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 450px;
+    height: 120px;
+    margin-bottom: 30px;
+}
