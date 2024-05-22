@@ -10,4 +10,4 @@ Software and Coding Co.
 
 Making your life easier.
 
-Copyrighted by Webstudio Corporation
+# Copyrighted by Webstudio Corporation
