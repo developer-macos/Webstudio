@@ -3,6 +3,8 @@
   --color-for-nothing: #ffffff;
   --just-color: #212121;
   --about-color: #757575;
+  --shadow-color: #2f303a;
+  --background-color-for-team-cards: #F5F4FA;
 }
 
 body {
@@ -23,11 +25,17 @@ body {
   color: #2196f3;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
 .container {
   /* display: flex;
   align-items: center; */
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1300px;
   outline: 2px green solid;
 }
 
@@ -87,6 +95,7 @@ body {
 .button {
   padding: 0 20px;
   font-size: 18px;
+  margin-bottom: 34px;
 }
 
 .button ul li {
@@ -167,6 +176,8 @@ b + p {
   height: 404px;
   align-items: center;
   justify-content: center;
+margin-left: 30px;
+margin-bottom: 30px;
 }
 
 .stylesheet {
@@ -317,9 +328,9 @@ body {
 .div {
   background-image: url(./images/backround-image.jpg);
   align-items: center;
-max-width: 1600px;
-        padding-top: 200px;
-        padding-bottom: 200px;
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-repeat: no-repeat;
 }
 
