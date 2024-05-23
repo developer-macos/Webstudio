@@ -409,7 +409,14 @@ body {
   flex-wrap: wrap;
   padding: right auto;
   max-width: 1170px;
-  background-color: #f5f4fa;
+}
+
+.coloro{
+  color: var(--background-color-for-team-cards);
+}
+
+.container-in-b img{
+  margin-left: 10px;
 }
 
 .team-- {
