@@ -35,8 +35,8 @@ body {
   /* display: flex;
   align-items: center; */
   margin: 0 auto;
-  max-width: 1300px;
-  outline: 2px green solid;
+  max-width: 1385px;
+  outline: solid 1px black;
 }
 
 .container:nth-of-type(1) {
@@ -321,17 +321,21 @@ body {
   font-size: 44px;
   word-spacing: 10px;
   margin-bottom: 30px;
+  width: 696px;
   font-size: 44px;
   text-align: center;
 }
 
 .div {
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+
+.div{
   background-image: url(./images/backround-image.jpg);
   align-items: center;
   max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-repeat: no-repeat;
+  height: 600px;
 }
 
 .button-in-webstudio {
