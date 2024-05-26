@@ -36,9 +36,8 @@ body {
   align-items: center; */
   margin: 0 auto;
   max-width: 1385px;
-  outline: solid 1px black;
+  outline: 1px solid black;
 }
-
 .container:nth-of-type(1) {
   font-family: "Raleway", sans-serif;
 }
@@ -324,25 +323,30 @@ body {
   width: 696px;
   font-size: 44px;
   text-align: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
 }
 
 .div {
   padding-bottom: 200px;
   background-repeat: no-repeat;
+  padding-top: 50px;
 }
 
 .div{
   background-image: url(./images/backround-image.jpg);
   align-items: center;
-  max-width: 1600px;
+  background-size: 1900px;
   height: 600px;
 }
 
 .button-in-webstudio {
-  width: 150px;
+  width: 216px;
   margin-bottom: 250px;
-  align-items: center;
-  margin-left: 850px;
+  margin-top: 20px;
   height: 50px;
   background-color: var(--accent-color);
   border-radius: 5px;
@@ -350,7 +354,7 @@ body {
   cursor: pointer;
   font-size: 16px;
   border: none;
-  text-align: center;
+  margin: auto;
 }
 
 .team {
@@ -417,6 +421,11 @@ body {
 
 .coloro{
   color: var(--background-color-for-team-cards);
+}
+
+.team-1{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container-in-b img{
