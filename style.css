@@ -35,8 +35,6 @@ body {
   /* display: flex;
   align-items: center; */
   margin: 0 auto;
-  max-width: 1385px;
-  outline: 1px solid black;
 }
 .container:nth-of-type(1) {
   font-family: "Raleway", sans-serif;
@@ -52,6 +50,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+  max-width: 1170px;
 }
 
 .hr-in {
@@ -355,6 +354,8 @@ margin-right: auto;
   font-size: 16px;
   border: none;
   margin: auto;
+  margin-left: 477px;
+  margin-left: 477px;
 }
 
 .team {
@@ -419,13 +420,10 @@ margin-right: auto;
   max-width: 1170px;
 }
 
-.coloro{
-  color: var(--background-color-for-team-cards);
-}
-
 .team-1{
   display: flex;
   flex-wrap: wrap;
+    color: var(--background-color-for-team-cards);
 }
 
 .container-in-b img{
@@ -434,9 +432,8 @@ margin-right: auto;
 
 .team-- {
   color: var(--just-color);
-  display: flex;
-  flex-wrap: wrap;
-  align-self: center;
+    display: flex;
+    justify-content: center;
 }
 .shrink-4 {
   display: flex;
