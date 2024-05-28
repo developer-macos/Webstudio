@@ -4,7 +4,7 @@
   --just-color: #212121;
   --about-color: #757575;
   --shadow-color: #2f303a;
-  --background-color-for-team-cards: #F5F4FA;
+  --background-color-for-team-cards: #f5f4fa;
 }
 
 body {
@@ -27,14 +27,14 @@ body {
   box-sizing: border-box;
 }
 
-.container-in{
+.container-in {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   gap: 20px;
 }
 
-.button-1-2{
+.button-1-2 {
   color: var(--just-color);
 }
 
@@ -181,8 +181,8 @@ b + p {
   height: 404px;
   align-items: center;
   justify-content: center;
-margin-left: 30px;
-margin-bottom: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .stylesheet {
@@ -284,9 +284,9 @@ body {
   display: block;
 }
 
-.tel{
+.tel {
   color: var(--about-color);
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .active {
@@ -334,12 +334,12 @@ body {
   width: 696px;
   font-size: 44px;
   text-align: center;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-left: auto;
-margin-right: auto;
-margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
 }
 
 .div {
@@ -348,7 +348,7 @@ margin-top: 200px;
   padding-top: 50px;
 }
 
-.div{
+.div {
   background-image: url(./images/backround-image.jpg);
   align-items: center;
   background-size: 1900px;
@@ -433,20 +433,20 @@ margin-top: 200px;
   padding: right auto;
 }
 
-.team-1{
+.team-1 {
   display: flex;
   flex-wrap: wrap;
-    color: var(--background-color-for-team-cards);
+  color: var(--background-color-for-team-cards);
 }
 
-.container-in-b img{
+.container-in-b img {
   margin-left: 10px;
 }
 
 .team-- {
   color: var(--just-color);
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .shrink-4 {
   display: flex;
@@ -463,7 +463,7 @@ margin-top: 200px;
   flex-shrink: 3;
 }
 
-.coloro{
+.coloro {
   background-color: var(--background-color-for-team-cards);
 }
 
@@ -522,3 +522,9 @@ margin-top: 200px;
   height: 120px;
   margin-bottom: 30px;
 }
+
+.imgss{
+  margin-left: 55px ;
+}
+
+.im
