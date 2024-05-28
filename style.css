@@ -11,10 +11,6 @@ body {
   font-family: "Roboto" "Raleway";
 }
 
-.number {
-  margin-left: 50px;
-}
-
 .contacts-in {
   margin-left: 50px;
   color: var(--just-color);
@@ -29,6 +25,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
+}
+
+.container-in{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.button-1-2{
+  color: var(--just-color);
 }
 
 .container {
@@ -50,7 +57,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  max-width: 1170px;
+  max-width: 1270px;
 }
 
 .hr-in {
@@ -277,6 +284,11 @@ body {
   display: block;
 }
 
+.tel{
+  color: var(--about-color);
+    margin-left: 50px;
+}
+
 .active {
   color: #2196f3;
   text-decoration: none;
@@ -327,6 +339,7 @@ flex-wrap: wrap;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
+margin-top: 200px;
 }
 
 .div {
@@ -450,6 +463,10 @@ margin-right: auto;
   flex-shrink: 3;
 }
 
+.coloro{
+  background-color: var(--background-color-for-team-cards);
+}
+
 .shrink-3 {
   display: flex;
   flex-shrink: 4;
@@ -457,14 +474,14 @@ margin-right: auto;
 
 .diap-b-f::before {
   background-image: url(./images/antenna.svg);
-  display: block;
+  display: flex;
   content: "";
-  background-color: var(--background-color-btn);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 450px;
   height: 120px;
   margin-bottom: 30px;
+  background-size: 270px;
 }
 
 .li-a {
@@ -475,9 +492,8 @@ margin-right: auto;
 
 .diap-b-s::before {
   background-image: url(./images/s.svg);
-  display: block;
+  display: flex;
   content: "";
-  background-color: var(--background-color-btn);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 450px;
@@ -487,9 +503,8 @@ margin-right: auto;
 
 .diap-b-t::before {
   background-image: url(./images/ss.svg);
-  display: block;
+  display: flex;
   content: "";
-  background-color: var(--background-color-btn);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 450px;
@@ -501,7 +516,6 @@ margin-right: auto;
   background-image: url(./images/wss.svg);
   display: flex;
   content: "";
-  background-color: var(--background-color-btn);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 450px;
