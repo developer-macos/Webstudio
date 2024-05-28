@@ -281,7 +281,6 @@ body {
   color: var(--just-color);
   margin-top: 24px;
   margin-bottom: 25px;
-  display: block;
 }
 
 .tel {
@@ -526,5 +525,3 @@ body {
 .imgss{
   margin-left: 55px ;
 }
-
-.im
