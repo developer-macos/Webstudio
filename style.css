@@ -408,6 +408,7 @@ margin-right: auto;
   unicode-bidi: isolate;
   list-style: none;
   gap: 30px;
+  background-color: var(--background-color-for-team-cards);
 }
 
 .team {
@@ -417,7 +418,6 @@ margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   padding: right auto;
-  max-width: 1170px;
 }
 
 .team-1{
