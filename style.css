@@ -31,7 +31,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  gap: 20px;
+gap: 30px;
+}
+
+.whatwedo img{
+    gap: 30px;
 }
 
 .button-1-2 {
