@@ -51,7 +51,7 @@ body {
   text-decoration: none;
 }
 
-.folio{
+.folio {
   margin-left: 30px;
 }
 
@@ -434,10 +434,6 @@ body {
   margin-top: 100px;
 }
 
-.red{
-
-}
-
 .team-1 {
   display: flex;
   flex-wrap: wrap;
@@ -454,6 +450,8 @@ body {
   justify-content: center;
   font-size: 36px;
   font-family: "Roboto";
+  margin-top: 94px;
+  font: bold;
 }
 .shrink-4 {
   display: flex;
@@ -532,6 +530,6 @@ body {
   margin-bottom: 30px;
 }
 
-.imgss{
-  margin-left: 55px ;
+.imgss {
+  margin-left: 55px;
 }
