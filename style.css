@@ -16,6 +16,10 @@ body {
   color: var(--just-color);
 }
 
+.img-clients:hover{
+  color: blue;
+}
+
 .portfolio-in {
   margin-left: 50px;
   color: #2196f3;

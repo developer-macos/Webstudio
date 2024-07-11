@@ -62,14 +62,14 @@
         }
       ],
       "properties": {
-        "order": 8,
+        "order": 7,
         "id": 6,
         "name": "Client-4",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 2,
-      "iconIdx": 0
+      "iconIdx": 11
     },
     {
       "icon": {
@@ -87,7 +87,14 @@
         "grid": 0,
         "tags": [
           "Client 1"
-        ]
+        ],
+        "colorPermutations": {
+          "1751771841331502431": [
+            {
+              "f": 1
+            }
+          ]
+        }
       },
       "attrs": [
         {
@@ -95,14 +102,14 @@
         }
       ],
       "properties": {
-        "order": 3,
+        "order": 2,
         "id": 4,
         "name": "Client-1",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 2,
-      "iconIdx": 2
+      "iconIdx": 13
     },
     {
       "icon": {
@@ -192,7 +199,68 @@
         "grid": 0,
         "tags": [
           "Client 2"
-        ]
+        ],
+        "colorPermutations": {
+          "1751771841331502431": [
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            }
+          ]
+        }
       },
       "attrs": [
         {
@@ -254,14 +322,14 @@
         }
       ],
       "properties": {
-        "order": 4,
+        "order": 3,
         "id": 3,
         "name": "Client-2",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 2,
-      "iconIdx": 3
+      "iconIdx": 14
     },
     {
       "icon": {
@@ -327,7 +395,50 @@
         "grid": 0,
         "tags": [
           "Client 3"
-        ]
+        ],
+        "colorPermutations": {
+          "1751771841331502431": [
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            }
+          ]
+        }
       },
       "attrs": [
         {
@@ -371,14 +482,14 @@
         }
       ],
       "properties": {
-        "order": 5,
+        "order": 4,
         "id": 2,
         "name": "Client-3",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 2,
-      "iconIdx": 4
+      "iconIdx": 15
     },
     {
       "icon": {
@@ -432,7 +543,41 @@
         "grid": 0,
         "tags": [
           "Client 5"
-        ]
+        ],
+        "colorPermutations": {
+          "1751771841331502431": [
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            }
+          ]
+        }
       },
       "attrs": [
         {
@@ -467,14 +612,14 @@
         }
       ],
       "properties": {
-        "order": 6,
+        "order": 5,
         "id": 1,
         "name": "Client-5",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 2,
-      "iconIdx": 5
+      "iconIdx": 16
     },
     {
       "icon": {
@@ -560,7 +705,65 @@
         "grid": 0,
         "tags": [
           "Client 6"
-        ]
+        ],
+        "colorPermutations": {
+          "1751771841331502431": [
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            },
+            {
+              "f": 1
+            }
+          ]
+        }
       },
       "attrs": [
         {
@@ -619,14 +822,14 @@
         }
       ],
       "properties": {
-        "order": 7,
+        "order": 6,
         "id": 0,
         "name": "Client-6",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 2,
-      "iconIdx": 6
+      "iconIdx": 17
     }
   ],
   "height": 1024,
@@ -654,7 +857,10 @@
       "color": 0,
       "bgColor": 16777215,
       "classSelector": ".icon",
-      "name": "icomoon"
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
     },
     "historySize": 50,
     "showCodes": true,
