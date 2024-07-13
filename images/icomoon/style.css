@@ -14,3 +14,27 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+
+.icon-foster {
+  width: 2.0234375em;
+}
+
+.icon-brand {
+  width: 1.3408203125em;
+}
+
+.icon-company {
+  width: 0.8720703125em;
+}
+
+.icon-companytitle-none {
+  width: 1.0712890625em;
+}
+
+.icon-logo {
+  width: 1.7666015625em;
+}
+
+.icon-tagline {
+  width: 2.0888671875em;
+}

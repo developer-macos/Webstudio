@@ -5,6 +5,20 @@
   --about-color: #757575;
   --shadow-color: #2f303a;
   --background-color-for-team-cards: #f5f4fa;
+  --color-for-hover: #2196F3;
+}
+
+.our-team{
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.client-item{
+  border: 1px solid rgb(175, 177, 184);
+    border-radius: 4px;
+    display: flex;
+    width: 170px;
+    height: 92px;
 }
 
 body {
