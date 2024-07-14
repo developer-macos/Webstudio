@@ -8,6 +8,25 @@
   --color-for-hover: #2196F3;
 }
 
+.icon-links:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.instagram{
+  margin-left: 32px;
+}
+
+.ul-icon{
+  display: flex;
+  padding: 0;
+}
+
+.ul-icon li{
+  list-style: none;
+  gap: 10px;
+}
+
 .twitter{
   margin-left: 10px;
 }
