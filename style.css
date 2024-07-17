@@ -10,7 +10,11 @@
 
 .icon-links:hover{
   cursor: pointer;
-  color: blue;
+  fill: blue;
+}
+
+.svg:hover{
+  fill: blue;
 }
 
 .instagram{
