@@ -13,6 +13,10 @@
   fill: blue;
 }
 
+.svg-icons:hover{
+  fill: blue;
+}
+
 .svg:hover{
   fill: blue;
 }
