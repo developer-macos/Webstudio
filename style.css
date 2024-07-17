@@ -10,7 +10,7 @@
 
 .icon-links:hover{
   cursor: pointer;
-  fill: blue;
+stroke: blue;
 }
 
 .team-ul{
@@ -27,7 +27,7 @@
 }
 
 .svg-icons:hover{
-  fill: blue;
+  stroke: blue;
 }
 
 .svg:hover{
