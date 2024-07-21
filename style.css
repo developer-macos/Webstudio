@@ -8,61 +8,65 @@
   --color-for-hover: #2196F3;
 }
 
-.icon-links:hover{
+path:hover{
+  fill: var(--color-for-hover);
+}
+
+.icon-links:hover {
   cursor: pointer;
-stroke: blue;
+  fill: blue;
+  fill-opacity: 2px;
 }
 
-.team-ul{
+svg:hover{
+fill: blue;
+}
+.team-ul {
   display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
 }
 
-.client{
+.client {
   display: flex;
   gap: 10px;
   margin-left: 215px;
 }
 
-.svg-icons:hover{
-  stroke: blue;
-}
-
-.svg:hover{
+.svg:hover {
   fill: blue;
 }
 
-.instagram{
+.instagram {
   margin-left: 32px;
 }
 
-.ul-icon{
+.ul-icon {
   display: flex;
   padding: 0;
 }
 
-.ul-icon li{
+.ul-icon li {
   list-style: none;
   gap: 10px;
 }
 
-.twitter{
+.twitter {
   margin-left: 10px;
 }
 
-.our-team{
+.our-team {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.client-item{
+.client-item {
   border: 1px solid rgb(175, 177, 184);
-    border-radius: 4px;
-    display: flex;
-    width: 170px;
-    height: 92px;
+  border-radius: 4px;
+  display: flex;
+  width: 170px;
+  height: 92px;
 }
 
 body {
@@ -74,7 +78,7 @@ body {
   color: var(--just-color);
 }
 
-.img-clients:hover{
+.img-clients:hover {
   color: blue;
 }
 
@@ -93,11 +97,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-gap: 30px;
+  gap: 30px;
 }
 
-.whatwedo img{
-    gap: 30px;
+.whatwedo img {
+  gap: 30px;
 }
 
 .button-1-2 {
@@ -109,6 +113,7 @@ gap: 30px;
   align-items: center; */
   margin: 0 auto;
 }
+
 .container:nth-of-type(1) {
   font-family: "Raleway", sans-serif;
 }
@@ -236,11 +241,11 @@ body ul a {
   text-decoration: none;
 }
 
-header > ul {
+header>ul {
   font-family: "Roboto", sans-serif;
 }
 
-b + p {
+b+p {
   font-family: "Roboto", sans-serif;
   font-size: 19px;
 }
@@ -281,13 +286,16 @@ b + p {
 .webstudio-footer a span {
   text-decoration: none;
 }
+
 body {
   font-family: "Raleway", "Roboto";
 }
+
 .port {
   margin-right: 50px;
   color: black;
 }
+
 .diap-b {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -321,6 +329,10 @@ body {
   text-decoration: none;
 }
 
+.svgicons:hover {
+  fill: blue;
+}
+
 /* .container{
   text-decoration: none;
   align-items: center;
@@ -344,6 +356,7 @@ body {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
+
 .DOCTYPE {
   font-size: 26px;
   color: var(--just-color);
@@ -493,6 +506,7 @@ body {
 .team {
   margin-bottom: 50px;
 }
+
 .container-in-b {
   display: flex;
   flex-wrap: wrap;
@@ -518,6 +532,7 @@ body {
   margin-top: 94px;
   font: bold;
 }
+
 .shrink-4 {
   display: flex;
   flex-shrink: 1;
