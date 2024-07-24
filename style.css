@@ -401,6 +401,16 @@ body {
   font-size: 30px;
 }
 
+.p-img{
+  color: white;
+  background-color: rgb(47, 48, 58, 80%);  
+  width: 370px;
+  height: 70px;
+  margin: 0;
+display: flex;
+position: absolute;
+}
+
 .not {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -430,7 +440,7 @@ body {
 .div {
   background-image: url(./images/backround-image.jpg);
   align-items: center;
-  background-size: 1900px;
+  background-size: cover;
   height: 600px;
 }
 
