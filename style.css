@@ -8,7 +8,7 @@
   --color-for-hover: #2196F3;
 }
 
-path:hover{
+path:hover {
   fill: var(--color-for-hover);
 }
 
@@ -18,9 +18,10 @@ path:hover{
   fill-opacity: 2px;
 }
 
-svg:hover{
-fill: blue;
+svg:hover {
+  fill: blue;
 }
+
 .team-ul {
   display: flex;
   flex-direction: row;
@@ -401,14 +402,34 @@ body {
   font-size: 30px;
 }
 
-.p-img{
-  color: white;
-  background-color: rgb(47, 48, 58, 80%);  
-  width: 370px;
-  height: 70px;
-  margin: 0;
-display: flex;
+.thumb{
+  position: relative;
+}
+
+.thumb > .p-img {
 position: absolute;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px 117px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.what-we-do-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 0px;
+}
+
+.what-we-do-item {
+  display: block;
 }
 
 .not {
