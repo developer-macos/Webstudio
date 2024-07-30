@@ -43,23 +43,27 @@
     <section>
 <div class="backdrop is-hidden" data-modal>
 <div class="modal scale-in-center">
-  <button class="btn" data-modal-close><img src="./images/img-for-modal/Group 6.svg" alt=""></button>
-  <p class="tracking-in-expand-fwd">Залиште свої дані, ми вам передзвонимо</p>
+  <button class="btn" data-modal-close><img class="closebutton" src="./images/img-for-modal/Group 6.svg" alt=""></button>
+  <p class="p-top">Залиште свої дані, ми вам передзвонимо</p>
   <form action="">
     <section>
-      <label for="name">Ім'я</label>
+      <p>Ім'я</p>
       <input class="input-name" type="" id="name" style="border-color: #212121; border-width: 1px;">
       <img class="img-modal" src="./images/img-for-modal/person.svg" alt="" width="12" height="12">
     </section>
-    <label for="tel">Телефон</label>
-    <input type="tel" id="tel">
-    <img src="./images/img-for-modal/tel.svg" alt="" width="12" height="12">
+    <p>Телефон</p>
+    <input class="input-name" type="tel" id="tel">
+    <img class="img-modal" src="./images/img-for-modal/tel.svg" alt="" width="12" height="12">
     <br>
-    <input type="email" name="email" id="email">
-    <img src="./images/img-for-modal/Vector.svg" alt="">
+    <p>Пошта</p>
+    <input class="input-name" type="email" name="email" id="email">
+    <img class="img-modal" src="./images/img-for-modal/Vector.svg" alt="">
     <br>
-    <input type="checkbox">
-    <label>Погоджуюся з розсилкою та приймаю Умови договору</label>
+    <p>Коментар </p>
+    <textarea name="" id="" placeholder="Введіть текст" width="440" height="120"></textarea>
+    <br>
+    <input class="checkbox" type="checkbox">
+    <label>Погоджуюся з розсилкою та приймаю <a href="index.html">Умови договору</a></label>
     <br>
     <button type="submit">Відправити</button>
   </form>
