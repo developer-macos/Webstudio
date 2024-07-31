@@ -6,6 +6,7 @@
   --shadow-color: #2f303a;
   --background-color-for-team-cards: #f5f4fa;
   --color-for-hover: #2196F3;
+  --color-for-modal-p: #757575;
 }
 
 path:hover {
@@ -376,6 +377,36 @@ body {
   font-size: 14px;
 }
 
+.checkbox{
+  border: #212121;
+}
+
+.p-modal{
+  color: var(--color-for-modal-p);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.label{
+  font-family: "Roboto", sans-serif;
+  color: var(--color-for-modal-p);
+  margin-top: 20px;
+margin-bottom: 30px;
+margin-left: 8px;
+margin-right: 0px;
+}
+
+.a-modal{
+  color: #2196F3;
+}
+
+textarea{
+  width: 440px;
+  height: 120px;
+              border: 1px solid rgba(33, 33, 33, 0.2);
+                border-radius: 4px;
+}
+
 .webstudio {
   color: #000000;
   text-decoration: none;
@@ -399,6 +430,8 @@ body {
   height: 40px;
       margin-bottom: 10px ;
         padding-left: 25px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 4px;
 }
 
 .backdrop {
