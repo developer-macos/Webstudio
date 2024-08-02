@@ -373,6 +373,11 @@ body {
  height: 50px;
  font-size: 16px;
  font-family: "Roboto", sans-serif;
+ border: none;
+ cursor: pointer;
+ border-radius: 4px;
+margin-left: 128px;
+  margin-top: 11px;
 }
 
 .tel {
@@ -387,7 +392,7 @@ body {
 }
 
 .checkbox{
-  border: #212121;
+
 }
 
 .p-modal{
@@ -414,6 +419,8 @@ textarea{
   height: 120px;
               border: 1px solid rgba(33, 33, 33, 0.2);
                 border-radius: 4px;
+                margin-bottom: 20px;
+                  margin-top: 4px;
 }
 
 .webstudio {
@@ -441,6 +448,7 @@ textarea{
         padding-left: 25px;
             border: 1px solid rgba(33, 33, 33, 0.2);
             border-radius: 4px;
+                margin-bottom: 0px;
 }
 
 .backdrop {
