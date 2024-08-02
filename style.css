@@ -335,6 +335,13 @@ body {
   fill: blue;
 }
 
+.links-section-footer{
+  order: 2;
+  display: flex;
+  margin-left: 150px;
+    margin-top: -56px;
+}
+
 /* .container{
   text-decoration: none;
   align-items: center;
@@ -391,8 +398,14 @@ margin-left: 128px;
   font-size: 14px;
 }
 
-.checkbox{
-
+.footer-section-sub{
+  display: flex;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+    margin-left: 890px;
+        margin-top: -41px;
 }
 
 .p-modal{
