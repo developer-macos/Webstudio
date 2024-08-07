@@ -13,6 +13,12 @@ path:hover {
   fill: var(--color-for-hover);
 }
 
+
+.a-hover-links .svgicons:hover{
+  background-color: #2196F3;
+  color: white;
+}
+
 .icon-links:hover {
   cursor: pointer;
   fill: blue;
@@ -33,7 +39,7 @@ svg:hover {
 .client {
   display: flex;
   gap: 10px;
-  margin-left: 215px;
+  padding: 0;
 }
 
 .svg:hover {
@@ -327,6 +333,23 @@ body {
   font-size: 14px;
 }
 
+.svg-clients{
+  display: flex;
+ align-items: center;
+}
+
+.svg-clients:hover{
+  color: #2196f3;
+}
+
+.h1-client-section{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  justify-content: center;
+  display: flex;
+}
+
 .container a {
   text-decoration: none;
 }
@@ -342,13 +365,13 @@ body {
     margin-top: -56px;
 }
 
-/* .container{
+.container{
   text-decoration: none;
   align-items: center;
-  max-width: 926px;
+  max-width: 1170px;
   margin: 0 auto;
   outline: solid 3px green;
-} */
+}
 
 .container a {
   text-decoration: none;
@@ -358,7 +381,7 @@ body {
   color: var(--accent-color);
 }
 
-.container li a {
+.container{
   padding: 0 10px;
   font-weight: bold;
   font-size: 14px;
@@ -406,6 +429,10 @@ margin-left: 128px;
   font-weight: bold;
     margin-left: 890px;
         margin-top: -41px;
+        width: 570px;
+        height: 86px;
+        border: 1px red solid;
+        justify-content: space-between;
 }
 
 .p-modal{
