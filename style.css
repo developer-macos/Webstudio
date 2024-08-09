@@ -259,12 +259,8 @@ b+p {
 }
 
 .card {
-  width: 370px;
-  height: 404px;
-  align-items: center;
-  justify-content: center;
-  margin-left: 30px;
-  margin-bottom: 30px;
+    flex-basis: calc((100% - 20px* 370) / 9);
+      border: 1px solid rgb(238, 238, 238);
 }
 
 .stylesheet {
