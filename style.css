@@ -46,6 +46,11 @@ svg:hover {
   fill: blue;
 }
 
+.imgss:hover .p-img{
+    transform: translate(-20px, 20px);
+      transition: all 0.5s ease-in-out;
+}
+
 .instagram {
   margin-left: 32px;
 }
@@ -300,6 +305,25 @@ margin-bottom: 10px;
 
 .card:hover .submenu {
   display: block;
+}
+
+.box{
+      position: relative;
+        overflow: hidden;
+}
+
+.secret-text{
+      position: absolute;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 63px 24px;
+        font-size: 18px;
+        line-height: 1.56;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+        background-color: rgba(33, 150, 243, 0.9);
+        transform: translatey(100%);
+        transition: transform 250ms ease-in-out;
 }
 
 .stylesheet {
@@ -835,8 +859,4 @@ textarea{
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-}
-
-.imgss {
-  margin-left: 55px;
 }
