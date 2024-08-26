@@ -9,10 +9,15 @@
   --color-for-modal-p: #757575;
 }
 
-path:hover {
+.path:hover {
   fill: var(--color-for-hover);
+  transition-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.box .hidden-text:hover{
+  transform: translateY(100%);
+}
 
 .a-hover-links .svgicons:hover{
   background-color: #2196F3;
@@ -318,6 +323,10 @@ margin-bottom: 10px;
 
 .card:hover .submenu {
   display: block;
+}
+
+.card:hover .hidden-text {
+  transform: translatey(-100%);
 }
 
 .box{
